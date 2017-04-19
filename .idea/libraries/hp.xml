@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="hp">
-    <CLASSES>
-      <root url="file://$MAVEN_REPOSITORY$/com/hp" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

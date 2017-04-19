@@ -1,7 +1,7 @@
 <Results>
     <GeneralInfo>
         <Name/>
-        <RunStartTime>2017-04-19 13:29:47</RunStartTime>
+        <RunStartTime>2017-04-19 17:30:51</RunStartTime>
         <Timezone>Eastern Standard Time</Timezone>
         <OrchestrationToolName>JUnit</OrchestrationToolName>
         <OrchestrationToolVersion/>
@@ -11,10 +11,10 @@
         <Data>
             <Name>Run Results</Name>
             <Description><![CDATA[ ]]></Description>
-            <StartTime>2017-04-19 13:29:47</StartTime>
+            <StartTime>2017-04-19 17:30:51</StartTime>
             <Result>Passed</Result>
             <Links/>
-            <Duration>13</Duration>
+            <Duration>25</Duration>
             <Extension>
                 <Any>
                     <IconKey>Run</IconKey>
@@ -39,10 +39,10 @@
             <Data>
                 <Name><![CDATA[Browser.navigate]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://www.orasi.com&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:49</StartTime>
+                <StartTime>2017-04-19 17:31:01</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>2</Duration>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -90,10 +90,10 @@
             <Data>
                 <Name><![CDATA[CONTACT US.click]]></Name>
                 <Description/>
-                <StartTime>2017-04-19 13:29:50</StartTime>
+                <StartTime>2017-04-19 17:31:01</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>5</Duration>
+                <Duration>7</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -167,10 +167,10 @@
             <Data>
                 <Name><![CDATA[42712_172266pi_42712_172266.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;General Questions&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:55</StartTime>
+                <StartTime>2017-04-19 17:31:08</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>4</Duration>
+                <Duration>5</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -245,7 +245,7 @@
             <Data>
                 <Name><![CDATA[42712_172268pi_42712_172268.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;jean.suplick@orasi.com&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:58</StartTime>
+                <StartTime>2017-04-19 17:31:13</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -327,7 +327,7 @@
             <Data>
                 <Name><![CDATA[42712_172270pi_42712_172270.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Jean&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:59</StartTime>
+                <StartTime>2017-04-19 17:31:13</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -409,7 +409,7 @@
             <Data>
                 <Name><![CDATA[42712_172272pi_42712_172272.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Suplick&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:59</StartTime>
+                <StartTime>2017-04-19 17:31:13</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -482,7 +482,7 @@
             <Data>
                 <Name><![CDATA[42712_172274pi_42712_172274.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Orasi&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:59</StartTime>
+                <StartTime>2017-04-19 17:31:14</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -555,7 +555,7 @@
             <Data>
                 <Name><![CDATA[42712_172278pi_42712_172278.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;United States&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:59</StartTime>
+                <StartTime>2017-04-19 17:31:14</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -628,7 +628,7 @@
             <Data>
                 <Name><![CDATA[42712_185989pi_42712_185989.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;TX&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:29:59</StartTime>
+                <StartTime>2017-04-19 17:31:14</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -697,7 +697,7 @@
             <Data>
                 <Name><![CDATA[42712_172280pi_42712_172280.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;This is a test. Please ignore.&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-19 13:30:00</StartTime>
+                <StartTime>2017-04-19 17:31:15</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -779,7 +779,7 @@
             <Data>
                 <Name><![CDATA[WebElement.click]]></Name>
                 <Description/>
-                <StartTime>2017-04-19 13:30:00</StartTime>
+                <StartTime>2017-04-19 17:31:15</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
