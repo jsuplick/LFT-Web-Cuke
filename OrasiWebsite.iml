@@ -69,5 +69,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:com.hp.lft.common:14.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:com.hp.lft.unittesting:14.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:com.hpe.lft.selenium:14.0.0" level="project" />
+    <orderEntry type="library" name="hp" level="project" />
   </component>
 </module>
