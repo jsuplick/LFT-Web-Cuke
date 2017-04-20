@@ -90,7 +90,7 @@
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
-            <artifactId>reportbuilder</artifactId>
+            <artifactId>reportbuilder-standalone</artifactId>
             <version>14.0.0</version>
             <scope>test</scope>
         </dependency>
