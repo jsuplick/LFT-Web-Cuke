@@ -1,9 +1,10 @@
 package com.orasi.StepDefinitions;
 
-import cucumber.api.CucumberOptions;
-import com.hpe.alm.octane.OctaneCucumber;
-import org.junit.*;
+import org.junit.Test;
 import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+
+import com.hpe.alm.octane.OctaneCucumber;
 
 @RunWith(OctaneCucumber.class)
 @CucumberOptions(
@@ -16,7 +17,7 @@ import org.junit.runner.RunWith;
                 "junit:RunResults/runresults.xml",
                 "junit:RunResults/runresults.html"
         },
-        //provide the tag needed by Octane
+        //provide the tag (gherkin test ID) needed by Octane
         tags = {"@TID42009REV0.4.0"}
 )
 
