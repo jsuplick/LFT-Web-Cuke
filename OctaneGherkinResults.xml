@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="Completing contact form" path="src\test\java\com\orasi\Features\Complete Contact Us form-42009.feature" started="1492639130624" tag="@TID42009REV0.4.0"><file><![CDATA[#Auto generated Octane revision tag
+<?xml version="1.0" encoding="UTF-8"?><features version="1"><feature name="Completing contact form" path="src\test\java\com\orasi\Features\Complete Contact Us form-42009.feature" started="1492700228168" tag="@TID42009REV0.4.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID42009REV0.4.0
 Feature: Completing contact form
 
@@ -6,4 +6,4 @@ Feature: Completing contact form
     Given a customer fills in the Contct Us form
     When they click the submit button
     Then they get the thank you message
-]]></file><scenarios><scenario name="Many users fill out the Contact Us form"><steps><step duration="16382388411" name="Given a customer fills in the Contct Us form" status="passed"/><step duration="32983" name="When they click the submit button" status="passed"/><step duration="3554426119" name="Then they get the thank you message" status="passed"/></steps></scenario></scenarios></feature></features>
+]]></file><scenarios><scenario name="Many users fill out the Contact Us form"><steps><step duration="14953534051" name="Given a customer fills in the Contct Us form" status="passed"/><step duration="22368" name="When they click the submit button" status="passed"/><step duration="3403894310" name="Then they get the thank you message" status="passed"/></steps></scenario></scenarios></feature></features>

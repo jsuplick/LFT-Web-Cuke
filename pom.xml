@@ -8,6 +8,14 @@
     <artifactId>website</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <repository>
+            <id>OrasiHostedRepo</id>
+            <name>Orasi Hosted Maven Repository</name>
+            <url>http://localhost:8081/nexus/content/repositories/OrasiHostedRepo</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -45,9 +53,51 @@
             <version>4.12</version>
         </dependency>
         <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>sdk-standalone</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>report</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>verifications</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>common</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>com.hpe.alm.octane</groupId>
             <artifactId>octane-cucumber-jvm</artifactId>
             <version>12.53.19</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>unittesting</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>report-builder</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>selenium</artifactId>
+            <version>14.0.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

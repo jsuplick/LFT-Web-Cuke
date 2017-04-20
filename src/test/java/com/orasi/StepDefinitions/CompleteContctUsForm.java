@@ -5,6 +5,7 @@ import java.net.URI;
 import com.hp.lft.report.ModifiableReportConfiguration;
 import cucumber.api.java.en.*;
 import com.hp.lft.report.Reporter;
+import com.hp.lft.reportbuilder.*;
 import com.hp.lft.sdk.*;
 import com.hp.lft.sdk.web.*;
 
