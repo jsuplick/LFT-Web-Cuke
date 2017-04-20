@@ -14,8 +14,10 @@ import org.junit.runner.RunWith;
                 "json:RunResults/cucmber.json",
                 "junit:RunResults/cucmber.xml",
                 "junit:RunResults/cucmber.html"
-        }
+        },
+        tags = {"@TID42009REV0.4.0"}
 )
+
 public class TestRunner {
     @Test
     public void Test() {}

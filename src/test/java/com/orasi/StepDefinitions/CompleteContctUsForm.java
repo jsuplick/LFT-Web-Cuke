@@ -2,14 +2,15 @@ package com.orasi.StepDefinitions;
 
 import java.net.URI;
 
-import com.hp.lft.report.ModifiableReportConfiguration;
 import cucumber.api.java.en.*;
 import com.hp.lft.report.Reporter;
-import com.hp.lft.reportbuilder.*;
+import com.hp.lft.reportbuilder.ReportBuilder.*;
 import com.hp.lft.sdk.*;
 import com.hp.lft.sdk.web.*;
 
 public class CompleteContctUsForm {
+
+    Browser browser;
 
     @Given("^a customer fills in the Contct Us form$")
     public void a_customer_fills_in_the_Contct_Us_form() throws Throwable {
@@ -18,8 +19,7 @@ public class CompleteContctUsForm {
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
         SDK.init(config);
-        ModifiableReportConfiguration rconfig = new ModifiableReportConfiguration();
-        Reporter.init (rconfig);
+        Reporter.init();
 
         //Configure the SRF capabilities
         //URL FTAAS_URL = new URL("https","ftaas.saas.hpe.com", 443,"/wd/hub/");
@@ -31,7 +31,7 @@ public class CompleteContctUsForm {
         //capabilities.setCapability("platform","Windows 7");
 
         //open www.orasi.com
-        Browser browser = BrowserFactory.launch(BrowserType.CHROME);
+        browser = BrowserFactory.launch(BrowserType.FIREFOX);
         browser.navigate("http://www.orasi.com");
 
         //Contact Us
@@ -81,14 +81,13 @@ public class CompleteContctUsForm {
     @When("^they click the submit button$")
     public void they_click_the_submit_button() throws Throwable {
         //submit
-        //browser.describe(Button.class, new ButtonDescription.Builder()
-        //      .buttonType("submit").tagName("INPUT").name("Submit").build()).click();
+        browser.describe(Button.class, new ButtonDescription.Builder()
+              .buttonType("submit").tagName("INPUT").name("Submit").build()).click();
     }
 
     @Then("^they get the thank you message$")
     public void they_get_the_thank_you_message() throws Throwable {
-
-        //browser.close;
+        browser.close();
         //Generate the test report and cleanup the LeanFT SDK usage.
         Reporter.generateReport();
         SDK.cleanup();
