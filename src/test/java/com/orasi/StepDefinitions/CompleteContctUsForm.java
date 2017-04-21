@@ -4,7 +4,6 @@ import java.net.URI;
 
 import cucumber.api.java.en.*;
 import com.hp.lft.report.Reporter;
-import com.hp.lft.reportbuilder.ReportBuilder.*;
 import com.hp.lft.sdk.*;
 import com.hp.lft.sdk.web.*;
 
@@ -78,8 +77,10 @@ public class CompleteContctUsForm {
         browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .className("recaptcha-checkbox-checkmark").tagName("DIV").innerText("").build()).click();
     }
+
     @When("^they click the submit button$")
     public void they_click_the_submit_button() throws Throwable {
+
         //submit
         browser.describe(Button.class, new ButtonDescription.Builder()
               .buttonType("submit").tagName("INPUT").name("Submit").build()).click();
@@ -87,7 +88,9 @@ public class CompleteContctUsForm {
 
     @Then("^they get the thank you message$")
     public void they_get_the_thank_you_message() throws Throwable {
+
         browser.close();
+
         //Generate the test report and cleanup the LeanFT SDK usage.
         Reporter.generateReport();
         SDK.cleanup();
