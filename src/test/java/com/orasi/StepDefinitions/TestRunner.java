@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 //"json:RunResults/runresults.json",
-                "junit:RunResults/runresults.xml"
+                "junit:junitResult.xml"
                 //"junit:RunResults/runresults.html",
         },
         //provide the tag needed by Octane
