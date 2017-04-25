@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
         glue = "com.orasi.StepDefinitions",
         plugin = {
                 "pretty",
-                "json:RunResults/runresults.json",
-                "junit:RunResults/runresults.xml",
-                "junit:RunResults/runresults.html",
+                //"json:RunResults/runresults.json",
+                //"junit:RunResults/runresults.xml",
+                //"junit:RunResults/runresults.html",
                 //Next is the junit test report that will be pushed into Octane from Jenkins
                 "junit:junitResult.xml"
         },
