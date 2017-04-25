@@ -3,6 +3,7 @@ package com.orasi.StepDefinitions;
 import java.net.URI;
 
 import cucumber.api.java.en.*;
+import com.hp.lft.report.*;
 import com.hp.lft.report.Reporter;
 import com.hp.lft.reportbuilder.ReportBuilder.*;
 import com.hp.lft.sdk.*;
@@ -19,6 +20,15 @@ public class CompleteContctUsForm {
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
         SDK.init(config);
+
+        ModifiableReportConfiguration reportConfig = ReportConfigurationFactory.createDefaultReportConfiguration();
+//        reportConfig.setOverrideExisting(true);
+//        reportConfig.setTargetDirectory("C:"); // The folder must exist under C:\
+//        reportConfig.setReportFolder("NewResults");
+//        reportConfig.setTitle("My Report Title");
+//        reportConfig.setDescription("Report Description");
+         reportConfig.setSnapshotsLevel(CaptureLevel.All);
+        Reporter.init(reportConfig);
         Reporter.init();
 
         //Configure the SRF capabilities

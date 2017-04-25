@@ -2,7 +2,10 @@ package com.orasi.StepDefinitions;
 
 import cucumber.api.CucumberOptions;
 import com.hpe.alm.octane.OctaneCucumber;
-import org.junit.*;
+import cucumber.api.java.*;
+import cucumber.api.java.After;
+//import org.junit.*;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(OctaneCucumber.class)
@@ -14,13 +17,16 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "json:RunResults/runresults.json",
                 "junit:RunResults/runresults.xml",
-                "junit:RunResults/runresults.html"
+                "junit:RunResults/runresults.html",
+                //Next is the junit test report that will be pushed into Octane from Jenkins
+                "junit:junitResult.xml"
         },
         //provide the tag needed by Octane
         tags = {"@TID42009REV0.4.0"}
 )
 
 public class TestRunner {
+
     @Test
     public void Test() {}
 }
