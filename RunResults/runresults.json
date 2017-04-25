@@ -1,0 +1,70 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Auto generated Octane revision tag"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Many users fill out the Contact Us form",
+        "description": "",
+        "id": "completing-contact-form;many-users-fill-out-the-contact-us-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25965559703,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a customer fills in the Contct Us form",
+            "match": {
+              "location": "CompleteContctUsForm.a_customer_fills_in_the_Contct_Us_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1504305084,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "they click the submit button",
+            "match": {
+              "location": "CompleteContctUsForm.they_click_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2869091005,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "they get the thank you message",
+            "match": {
+              "location": "CompleteContctUsForm.they_get_the_thank_you_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Completing contact form",
+    "description": "",
+    "id": "completing-contact-form",
+    "keyword": "Feature",
+    "uri": "Complete Contact Us form-42009.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@TID42009REV0.4.0"
+      }
+    ]
+  }
+]
