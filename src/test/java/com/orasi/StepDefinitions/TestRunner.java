@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
         glue = "com.orasi.StepDefinitions",
         plugin = {
                 "pretty",
-                //"json:RunResults/runresults.json",
-                //"junit:RunResults/runresults.html",
+                "json:RunResults/runresults.json",
+                "junit:RunResults/runresults.html",
                 "junit:junitResult.xml"
         },
         //provide the tag needed by Octane
