@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "json:RunResults/runresults.json",
                 "junit:RunResults/runresults.html",
-                "junit:junitResult.xml"
+                "junit:RunResults/RunResults.xml"
         },
         //provide the tag needed by Octane
         tags = {"@TID42009REV0.4.0"}
