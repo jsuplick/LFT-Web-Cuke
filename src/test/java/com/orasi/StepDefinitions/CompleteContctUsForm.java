@@ -28,7 +28,6 @@ public class CompleteContctUsForm {
 //        reportConfig.setDescription("Report Description");
          reportConfig.setSnapshotsLevel(CaptureLevel.All);
         Reporter.init(reportConfig);
-        Reporter.init();
 
         //Configure the SRF capabilities
         //URL FTAAS_URL = new URL("https","ftaas.saas.hpe.com", 443,"/wd/hub/");
