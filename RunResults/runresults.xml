@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.457712">
-<testcase classname="Completing contact form" name="Many users fill out the Contact Us form" time="55.457712">
-<system-out><![CDATA[Given a customer fills in the Contct Us form................................passed
-When they click the submit button...........................................passed
-Then they get the thank you message.........................................passed
-]]></system-out>
-</testcase>
-</testsuite>
-        <Duration>51</Duration>
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2017-05-24 09:17:58</RunStartTime>
+        <Timezone>Eastern Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2017-05-24 09:17:58</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>25</Duration>
             <Extension>
                 <Any>
                     <IconKey>Run</IconKey>
@@ -31,11 +39,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[Browser.navigate]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://www.orasi.com&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:27:47</StartTime>
+                <StartTime>2017-05-24 09:18:02</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
-                <Snapshot reference="Resources\Snapshots\a1b8a8de-872e-4144-8aa2-6ec45151f459.png"><![CDATA[Resources\Snapshots\a1b8a8de-872e-4144-8aa2-6ec45151f459.png]]></Snapshot>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -83,11 +90,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[CONTACT US.click]]></Name>
                 <Description/>
-                <StartTime>2017-04-27 15:27:47</StartTime>
+                <StartTime>2017-05-24 09:18:02</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>7</Duration>
-                <Snapshot reference="Resources\Snapshots\c3fb6bb9-9a65-4b08-a3e6-9f6f221e4396.png"><![CDATA[Resources\Snapshots\c3fb6bb9-9a65-4b08-a3e6-9f6f221e4396.png]]></Snapshot>
+                <Duration>5</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -109,11 +115,11 @@ Then they get the thank you message.........................................pass
                             <OperationData/>
                             <Properties>
                                 <Property>
-                                    <Name><![CDATA[outerText]]></Name>
+                                    <Name><![CDATA[innerText]]></Name>
                                     <Value><![CDATA[CONTACT US]]></Value>
                                 </Property>
                                 <Property>
-                                    <Name><![CDATA[innerText]]></Name>
+                                    <Name><![CDATA[outerText]]></Name>
                                     <Value><![CDATA[CONTACT US]]></Value>
                                 </Property>
                                 <Property>
@@ -161,11 +167,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172266pi_42712_172266.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;General Questions&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:27:54</StartTime>
+                <StartTime>2017-05-24 09:18:07</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>11</Duration>
-                <Snapshot reference="Resources\Snapshots\024852a1-2bea-40e8-a3d6-03b175bf14ad.png"><![CDATA[Resources\Snapshots\024852a1-2bea-40e8-a3d6-03b175bf14ad.png]]></Snapshot>
+                <Duration>5</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -240,11 +245,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172268pi_42712_172268.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;jean.suplick@orasi.com&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:04</StartTime>
+                <StartTime>2017-05-24 09:18:11</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>5</Duration>
-                <Snapshot reference="Resources\Snapshots\82de7c4f-f3f9-4e72-b67f-cf1316fc7d68.png"><![CDATA[Resources\Snapshots\82de7c4f-f3f9-4e72-b67f-cf1316fc7d68.png]]></Snapshot>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -323,11 +327,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172270pi_42712_172270.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Jean&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:09</StartTime>
+                <StartTime>2017-05-24 09:18:12</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>6</Duration>
-                <Snapshot reference="Resources\Snapshots\aad9a7cc-8957-4df6-98e6-0ff1622be9fd.png"><![CDATA[Resources\Snapshots\aad9a7cc-8957-4df6-98e6-0ff1622be9fd.png]]></Snapshot>
+                <Duration>2</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -406,11 +409,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172272pi_42712_172272.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Suplick&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:14</StartTime>
+                <StartTime>2017-05-24 09:18:13</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>3</Duration>
-                <Snapshot reference="Resources\Snapshots\e873df53-d146-4dc9-b6cb-33fe804821aa.png"><![CDATA[Resources\Snapshots\e873df53-d146-4dc9-b6cb-33fe804821aa.png]]></Snapshot>
+                <Duration>2</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -480,11 +482,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172274pi_42712_172274.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Orasi&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:16</StartTime>
+                <StartTime>2017-05-24 09:18:15</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\ba08b5c3-3e65-4d26-a991-a15fc0fc7b49.png"><![CDATA[Resources\Snapshots\ba08b5c3-3e65-4d26-a991-a15fc0fc7b49.png]]></Snapshot>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -554,11 +555,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172278pi_42712_172278.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;United States&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:18</StartTime>
+                <StartTime>2017-05-24 09:18:15</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\719f140a-a9b7-4bb7-a597-17e3a26a7ddb.png"><![CDATA[Resources\Snapshots\719f140a-a9b7-4bb7-a597-17e3a26a7ddb.png]]></Snapshot>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -628,11 +628,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_185989pi_42712_185989.select]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;TX&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:19</StartTime>
+                <StartTime>2017-05-24 09:18:17</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\7e17201a-dd9b-4f1b-bc68-5a90b0d2ef31.png"><![CDATA[Resources\Snapshots\7e17201a-dd9b-4f1b-bc68-5a90b0d2ef31.png]]></Snapshot>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -698,11 +697,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[42712_172280pi_42712_172280.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;This is a test. Please ignore.&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-04-27 15:28:21</StartTime>
+                <StartTime>2017-05-24 09:18:18</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\eb835686-dc9e-4a47-aa84-2e7952d57c06.png"><![CDATA[Resources\Snapshots\eb835686-dc9e-4a47-aa84-2e7952d57c06.png]]></Snapshot>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -781,11 +779,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[WebElement.click]]></Name>
                 <Description/>
-                <StartTime>2017-04-27 15:28:22</StartTime>
+                <StartTime>2017-05-24 09:18:19</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\5855900c-5c51-4cbd-8f6b-482854c772a2.png"><![CDATA[Resources\Snapshots\5855900c-5c51-4cbd-8f6b-482854c772a2.png]]></Snapshot>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -855,11 +852,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[Submit.click]]></Name>
                 <Description/>
-                <StartTime>2017-04-27 15:28:23</StartTime>
+                <StartTime>2017-05-24 09:18:20</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>4</Duration>
-                <Snapshot reference="Resources\Snapshots\e3470ca0-1891-4220-9c9d-7e5b13d45ef1.png"><![CDATA[Resources\Snapshots\e3470ca0-1891-4220-9c9d-7e5b13d45ef1.png]]></Snapshot>
+                <Duration>3</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -929,11 +925,10 @@ Then they get the thank you message.........................................pass
             <Data>
                 <Name><![CDATA[Contact Us - Orasi Software, Inc..close]]></Name>
                 <Description/>
-                <StartTime>2017-04-27 15:28:26</StartTime>
+                <StartTime>2017-05-24 09:18:23</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>2</Duration>
-                <Snapshot reference="Resources\Snapshots\a2ff8996-a9c2-4dea-b254-9fab9eba1b03.png"><![CDATA[Resources\Snapshots\a2ff8996-a9c2-4dea-b254-9fab9eba1b03.png]]></Snapshot>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>

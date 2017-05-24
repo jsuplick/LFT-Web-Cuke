@@ -15,28 +15,33 @@ public class CompleteContctUsForm {
     @Given("^a customer fills in the Contct Us form$")
     public void a_customer_fills_in_the_Contct_Us_form() throws Throwable {
 
-        //Initialize the LeanFT SDK and the LeanFT Reporter
+        //Configure the LeanFT connection
+        //---------------------------------
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
         SDK.init(config);
 
-        ModifiableReportConfiguration reportConfig = ReportConfigurationFactory.createDefaultReportConfiguration();
+        //Configure the LeanFT report as desired
+        //----------------------------------------
+//        ModifiableReportConfiguration reportConfig = ReportConfigurationFactory.createDefaultReportConfiguration();
 //        reportConfig.setOverrideExisting(true);
 //        reportConfig.setTargetDirectory("C:"); // The folder must exist under C:\
 //        reportConfig.setReportFolder("NewResults");
 //        reportConfig.setTitle("My Report Title");
 //        reportConfig.setDescription("Report Description");
-         reportConfig.setSnapshotsLevel(CaptureLevel.All);
-        Reporter.init(reportConfig);
+//        reportConfig.setSnapshotsLevel(CaptureLevel.All);
+//        Reporter.init (reportConfig);
+        Reporter.init();
 
-        //Configure the SRF capabilities
-        //URL FTAAS_URL = new URL("https","ftaas.saas.hpe.com", 443,"/wd/hub/");
-        //DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        //capabilities.setCapability("SRF_CLIENT_ID", "t471464561_oauth2-tSLqZ9U5iYO4xd180lig@hpe.com");
-        //capabilities.setCapability("SRF_CLIENT_SECRET", "7G5Lt6IxIpQ6VAoAFKII");
-        //capabilities.setCapability("name","LFT-Sel-Cuke-SRF - Jean Suplick");
-        //capabilities.setVersion("51");
-        //capabilities.setCapability("platform","Windows 7");
+        //Configure the StormRunner Functional capabilities
+        //---------------------------------------------------
+//        URL FTAAS_URL = new URL("https","ftaas.saas.hpe.com", 443,"/wd/hub/");
+//        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+//        capabilities.setCapability("SRF_CLIENT_ID", "t471464561_oauth2-tSLqZ9U5iYO4xd180lig@hpe.com");
+//        capabilities.setCapability("SRF_CLIENT_SECRET", "7G5Lt6IxIpQ6VAoAFKII");
+//        capabilities.setCapability("name","LFT-Sel-Cuke-SRF - Jean Suplick");
+//        capabilities.setVersion("51");
+//        capabilities.setCapability("platform","Windows 7");
 
         //open www.orasi.com
         browser = BrowserFactory.launch(BrowserType.FIREFOX);

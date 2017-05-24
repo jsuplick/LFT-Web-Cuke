@@ -60,6 +60,12 @@
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
+            <artifactId>reportbuilder-standalone</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
             <version>14.0.0</version>
             <scope>test</scope>
@@ -88,12 +94,7 @@
             <version>14.0.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.hp.lft</groupId>
-            <artifactId>reportbuilder-standalone</artifactId>
-            <version>14.0.0</version>
-            <scope>test</scope>
-        </dependency>
+
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>selenium</artifactId>

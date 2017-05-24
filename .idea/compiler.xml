@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LFT-Web-Cuke" />
         <module name="OrasiWebsite" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="LFT-Web-Cuke" target="1.5" />
       <module name="OrasiWebsite" target="1.5" />
     </bytecodeTargetLevel>
   </component>
