@@ -15,7 +15,7 @@ public class CompleteContctUsForm {
     @Given("^a customer fills in the Contct Us form$")
     public void a_customer_fills_in_the_Contct_Us_form() throws Throwable {
 
-        //Configure the LeanFT connection
+         //Configure the LeanFT connection
         //---------------------------------
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
