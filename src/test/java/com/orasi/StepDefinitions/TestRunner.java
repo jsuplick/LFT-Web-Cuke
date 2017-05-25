@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
                 "junit:RunResults/RunResults.xml"
         },
         //provide the tag needed by Octane
-        tags = {"@TID42009REV0.4.0"}
+        tags = {"@TID49001REV0.2.0"}
 )
 
 public class TestRunner {
